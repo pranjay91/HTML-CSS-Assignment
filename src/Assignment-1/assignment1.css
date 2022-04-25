@@ -1,10 +1,23 @@
 /* Our CSS file. */
 
 
-.container, .content {
+.container {
 width: 100%;
-height: 100%;
+height: auto;
+border: 0.5px solid gold;
+background-color: rgb(182, 179, 179);
 }
-h1{
-    color:yellow;
+.row{
+    display: block;
+    width: 100%;
+    height: 300px;
+    margin: 10px;
+}
+.col{
+    display: inline-block;
+    width: 45%;
+    height: inherit;
+    margin: 10px;
+    border: 1px solid rgb(229, 229, 174);
+    float: left;
 }
